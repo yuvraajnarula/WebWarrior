@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="{% static 'assets/notifyreLogo2.png' %}">
+    <link rel="shortcut icon" href="icon.jpg">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--JS Library-->
@@ -19,51 +19,43 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
+   
     <title>Marsocity Express | Home</title>
   </head>
-  <body>
-    <body>
-        <nav class="navbar fixed-top navbar-expand-lg" id="nav">
-          <a href="#" class="navbar-brand"><img src="{%  static  'assets/notifyreLogo2.png' %}" alt="logo" height="60px" width="60px"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-              <li class="nav-item"><a href="#team" class="nav-link">Partners</a></li>
-              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="#contact" class="nav-link">Menu</a></li>
-            </ul>
-          <div class="collapse navbar-collapse nav menu login"></div>
-            <ul class="navbar-nav">
-              <li class="nav-item sign"><a href="{% url 'login' %}"  class="nav-link log">Sign in</a></li>
-              <li class="nav-item sign"><a href="{% url 'register' %}"  class="nav-link log">Sign up</a></li>
-            </ul>
-          </div>  
-          </div>
-        </nav>
-        <div class="container-fluid logo">
-
-            <div class="row">
-              <div class="col-md-12 col-md-6 text-center" style="color: black; margin-top: 18rem;">
-                <h1 class="int">Marsocity Express</h1>
-                <br>
-                <hr style="border: .25px solid black; border-radius: 5px;">
-                <q style="font-weight: bolder;">
-                  Have it your way! Across the Milky Way
-                </q>
-                <hr style="border: .25px solid black; border-radius: 5px;">
-
-              </div>
-               </div> 
-            </div>
-          </div>
-         </div>
+  <div id="navbar">
+    <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Partners</a>
+     <a href="#">Contact</a>
+     <a class="active" href="#">Sign In</a>
+     <a class="active" href="#">Sign Out</a>
+   </div>
+   <br>
+   <br>
+   <br>
+     <body>
+    <center>
+    <div style="background-attachment: fixed; background-image: url('https://wallpaperplay.com/walls/full/7/8/d/104383.jpg');">
+      <img src="icon.jpg" width="500" height="500">
+      <br>
+      <div style="color: white;">
+        <h1 class="int">Marsocity Express</h1>
+        <br>
+        <hr style="border: .25px solid white; border-radius: 5px;">
+        <q style="font-weight: bolder; color: #f0913d ;">
+          Have it your way! Across the Milky Way
+        </q>
+        <hr style="border: .25px solid white; border-radius: 5px;">
+        <br><br>
+        <br> 
+        <br> 
+      </div>
+           </div> 
+      </div> 
+    </center>
+    <br>
+    <br>
+       <div  class="content">
          <div class="container-fluid about ">
           <div class="row">
             <div class="col-md-12">
@@ -73,24 +65,11 @@
           </div>
         </div>
         <br><br>
-        <div class="container">
-          <div class="row">
-            
-            <div class="col-md-1"></div>
-            <div class="col-md-5 align-items-center">
-              <img src="https://cdn.dribbble.com/users/610788/screenshots/5157282/spacex.png" alt="Marsocity Express's Logo" class="img" width="300" height="200">
-            </div>
-    
-            <div class="col-md-5 justify-content-center">
-              <p style="color: white;">
-                Since its inception in 2016, the Syndicate is constantly working to make information technology accessible to everyone and spark an interest in the youth to keep up with the rapidly progressing industry of computer science.<br><br>
-                Robotronics, our annual tech symposium, was first hosted in 2013. With more than 10 events and 250+ participants, this contest has been the much-anticipated challenge of all the tech wizards across Delhi NCR. </p>
-            </div>
-            <div class="col-md-1"></div>
-          </div>
-        </div>
+        
         <br>
+        <center>
         <hr style="width:35%; border: 2px solid white; border-radius: 10px;">
+      </center>
         <br>
         <div class="container text-center">
           <div class="col-md-12">
@@ -112,18 +91,18 @@
                <div class="col-md-12 spons">
             <div class="col-md-12 text-center">
               <br><br> 
-              <h1 style="letter-spacing: 1px;">Our Partners</h1>
+              <h1>Our Partners</h1>
             </div>
             <br><br>
             <br><br>
-            <div class="row justify-content-center part">
+            <div class="row justify-content-center align-items-center part">
               <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem; ">
                   <img width="300" height="250" src="https://lh3.googleusercontent.com/proxy/051t0dVpg8oyRfyGIXJa_U9OjBjIG54MT_9xfTaKNt5lfYcpL6N-HyVkujM1UW42p08iUngmJQtbu7NXVzHgoT0Gd6_miEVZMoI2Wlol1UfMhVY" class="card-img-top" alt="Swiggy">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn pride btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -161,10 +140,10 @@
             <br><br><br>
           </div>
                  </div> 
-                  <div class="container-fluid" style="background-color: #533b6e; width: 100%; padding: 0;">
+                  <div class="container-fluid" style="background-color: #f0913d; width: 100%; padding: 0;">
                     <div class="col-md-12 text-center">
                       <br><br>
-                      <h2 style="color: white; font-family: 'Poppins',sans-serif; font-weight: bold; letter-spacing: 1px;">Contact</h2>
+                      <h2 style="color: black; font-family: 'Poppins',sans-serif; font-weight: bolder; letter-spacing: 1px;">Contact</h2>
                     </div>
                     <br>
                     <div class="col-md-12">
@@ -185,8 +164,10 @@
                       </div>
                     </div>
                   </div>
+                </div>
                 </body>
                 <a href="#" class="to-top">
                   <i class="fas fa-chevron-up"></i>
                 </a>
+
                 </html>
